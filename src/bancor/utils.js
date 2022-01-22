@@ -183,8 +183,8 @@ export const createFakeConverter = ({ baseSymbol, quoteSymbol, ...rest }) => {
   }
 }
 
-//export const getCountryCode = () => {
-//  return fetch(`https://ipapi.co/json`, { referrerPolicy: 'no-referrer' })
-//    .then(res => res.json())
-//    .then(res => res.country_code_iso3)
-//}
+export const getCountryCode = () => {
+  return fetch(`https://ipapi.co/json`, { referrerPolicy: 'no-referrer' })
+    .then(res => res.json())
+    .then(res => res.country_code_iso3)
+}
