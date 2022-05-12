@@ -19,7 +19,7 @@
     "export-to-csv": "^0.2.1",
     "feather-icons": "^4.24.1",
     "graphql": "^14.5.6",
-    "graphql-tag": "^2.10.1",
+    "graphql-tag": "^2.12.6",
     "jazzicon": "^1.5.0",
     "node-vibrant": "^3.1.5",
     "polished": "^3.4.2",
